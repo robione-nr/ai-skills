@@ -11,4 +11,5 @@ Short operational instructions for Codex. Use this index to find the right skill
 ## Coding
 
 - [write-code.md](write-code.md): General coding practices for clean, conventional, maintainable code.
+- [use-git.md](use-git.md): Safe git workflows for commits, remotes, rebases, conflicts, and pushes.
 - [operational-environment.md](operational-environment.md): Local/VPS environment facts and workflow rules for Nolan's projects.
