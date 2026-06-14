@@ -13,8 +13,9 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
    - `assets/[app]/` for screenshots, thumbnails, and media assets.
 4. Classify each project as public or private.
 5. Match the amount of detail to project scope, maturity, and visibility.
-6. Order projects by significance first, then recent projects with likely future significance.
-7. Validate links, image paths, headings, and Markdown rendering assumptions.
+6. Place true flagship work in `Featured Projects`.
+7. Place useful recent work that is not flagship-level in `Recent Work`.
+8. Validate links, image paths, headings, and Markdown rendering assumptions.
 
 ## Rules
 
@@ -27,13 +28,17 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
 - Preserve the user's voice: practical, direct, personal, not corporate.
 - Keep project names, slugs, image paths, and links stable.
 - Track dates when useful for ordering and recency.
+- Do not add status lines unless they explain something useful.
 
 ## Ordering
 
-- Put significant projects near the top.
-- Put new projects near the top when they appear likely to become significant.
-- Prefer significance over chronology when both are clear.
-- Use recency to break ties between similarly important projects.
+- Use `Featured Projects` for significant or flagship work.
+- Use `Recent Work` for new, useful, or active projects that are not necessarily significant.
+- Put new projects in `Featured Projects` only when they already show likely flagship potential.
+- Keep a compact `Project Index` for completeness.
+- A project may appear in a section card and in the index.
+- Prefer significance over chronology inside `Featured Projects`.
+- Prefer recency inside `Recent Work`.
 - Include a date field or visible date only when the portfolio structure needs it.
 - If adding dates, prefer stable project metadata:
   - `created`
@@ -42,6 +47,18 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
   - `status`
 - Do not let old but important projects sink below minor recent work.
 
+## Status Labels
+
+- Omit status when the card already speaks for itself.
+- Add status only when it changes how a visitor should read the project:
+  - work in progress
+  - paused
+  - archived
+  - experimental
+  - private case study
+  - limited demo
+- Do not label a project significant just because it is useful or recent.
+
 ## Public Projects
 
 - Add or update a card in the portfolio index.
@@ -49,6 +66,7 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
 - Include a one- or two-sentence summary focused on what the project is and why it matters.
 - Include a screenshot only if it clarifies the project quickly.
 - Create a detail page only if the user requests one or the project needs portfolio-specific context.
+- Put public projects in `Recent Work` when they are useful and current but not flagship work.
 
 ## Private Projects
 
