@@ -6,6 +6,7 @@ Short operational instructions for Codex. Use this index to find the right skill
 
 - [write-skills.md](write-skills.md): Rules for creating concise, useful AI skills and reusable operating guides.
 - [write-github-readmes.md](write-github-readmes.md): Rules for creating or improving GitHub repository README files that match the project.
+- [update-github-portfolio.md](update-github-portfolio.md): Rules for updating Nolan's GitHub Markdown portfolio with project cards and detail pages.
 
 ## Coding
 
