@@ -86,4 +86,4 @@ Do not restructure this layout unless explicitly asked. The user will perform th
 - Include `(codex)` in commit messages.
 - The user handles actions outside accessible files or permissions.
 
-Please refer to `opertional-secrets.md` for further environmental context.
+Please refer to `operational-secrets.md` for further environmental context.

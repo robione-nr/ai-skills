@@ -4,7 +4,7 @@ description: Use when writing or editing code and the user asks for good practic
 ---
 
 ## Operating Environment
-- Refer to `operating-environment.md`.
+- Refer to `operational-environment.md`.
 
 ## Workflow
 
