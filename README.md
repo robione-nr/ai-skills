@@ -5,9 +5,9 @@ Short operational instructions for Codex. Use this index to find the right skill
 ## Skill Writing
 
 - [write-skills.md](write-skills.md): Rules for creating concise, useful AI skills and reusable operating guides.
+- [write-github-readmes.md](write-github-readmes.md): Rules for creating or improving GitHub repository README files that match the project.
 
 ## Coding
 
 - [write-code.md](write-code.md): General coding practices for clean, conventional, maintainable code.
 - [operational-environment.md](operational-environment.md): Local/VPS environment facts and workflow rules for Nolan's projects.
-
