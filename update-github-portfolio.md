@@ -21,6 +21,8 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
 
 - Use GitHub-flavored Markdown unless the repo already uses another system.
 - Use small amounts of GitHub-supported HTML only when it improves screenshots, grids, collapsible details, or linked media.
+- Use shields.io badges for compact visibility and status labels when the portfolio already uses badges.
+- Avoid red badges; use orange only for caution/warning states.
 - Do not add a framework, build system, or renderer unless the user asks.
 - Do not duplicate full public repo READMEs in the portfolio.
 - Do not expose secrets, private URLs, client names, operational details, or sensitive screenshots.
@@ -49,13 +51,15 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
 
 ## Status Labels
 
-- Omit status when the card already speaks for itself.
-- Add status only when it changes how a visitor should read the project:
+- Include a compact `Status` column in project index tables.
+- Keep status labels very short so tables stay readable.
+- Use labels such as:
+  - MVP
+  - Stable
   - work in progress
   - paused
   - archived
   - experimental
-  - private case study
   - limited demo
 - Do not label a project significant just because it is useful or recent.
 
