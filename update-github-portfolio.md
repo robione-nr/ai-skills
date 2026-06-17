@@ -54,13 +54,12 @@ description: Use when updating Nolan's GitHub portfolio repo with project cards,
 - Include a compact `Status` column in project index tables.
 - Keep status labels very short so tables stay readable.
 - Use labels such as:
-  - MVP
+  - M.V.P.
   - Stable
-  - work in progress
-  - paused
-  - archived
-  - experimental
-  - limited demo
+  - W.I.P.
+  - Paused
+  - Archive
+  - Demo
 - Do not label a project significant just because it is useful or recent.
 
 ## Public Projects
