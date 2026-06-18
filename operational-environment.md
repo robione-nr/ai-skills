@@ -32,7 +32,8 @@ VPS access:
 - Git global identity is configured.
 - GitHub username: `robione-nr`.
 - User creates Github repos and sets licenses.
-- For privileged VPS details, read `operational-secrets.md` only when the task involves SSH, root ownership, cron, deployment permissions, or remote git auth.
+- Add specific privileged VPS details to `operational-secrets.md` only as they become relevant to SSH, root ownership, cron, deployment permissions, remote git auth, or similar environment-sensitive tasks.
+- When privileged details are missing, ask Nolan for the smallest needed fact or command output instead of guessing.
 
 ## Filesystem
 
@@ -91,4 +92,4 @@ Do not restructure this layout unless explicitly asked. The user will perform th
   - `VPS/nolan-robidoux.name/html/endpoint/health` -> `git@github.com:robione-nr/endpoint-biometrics.git`
   - `VPS/scripts/common/python/utility-server` -> `git@github.com:robione-nr/utility-server.git`
 
-Please refer to `operational-secrets.md` for further environmental context.
+Use `operational-secrets.md` only for privileged or environment-sensitive context that cannot be inferred from visible project files.

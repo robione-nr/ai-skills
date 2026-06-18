@@ -23,6 +23,7 @@ description: Use when creating or improving GitHub repository README.md files fo
 - Use fuller onboarding sections only for reusable projects that someone else can install, run, or integrate.
 - Mention uncertainty directly when behavior cannot be verified from the repo.
 - Keep marketing language out unless the repo is product-facing.
+- Omit repository hygiene minutia that does not help a reader understand or use the repo, such as ignored generated folders, cache directories, or routine do-not-commit reminders.
 
 ## Shape
 
