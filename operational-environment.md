@@ -84,7 +84,7 @@ Do not restructure this layout unless explicitly asked. The user will perform th
   3. Validate.
   4. Commit.
   5. Merge as appropriate.
-- Include `(codex)` in commit messages.
+- Include `(Codex)` in commit messages.
 - The user handles actions outside accessible files or permissions.
 - Known local repo roots:
   - `VPS/repo/portfolio` -> `git@github.com:robione-nr/portfolio.git`
